@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
 :root {
   --dark-grey: #1b1b32;
   --light-grey: #f5f6f7;
@@ -108,6 +115,10 @@ body {
 
   .dessert-card {
     flex: 1 0 21%;
+    min-height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   }
 
   #cart-container {
